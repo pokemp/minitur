@@ -1,0 +1,104 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body{
+  background-image: url("http://www.google.fr/url?source=imglanding&ct=img&q=http://fc02.deviantart.net/fs70/i/2011/237/8/9/water_background_by_kristinnluvsbtr-d47tru3.jpg&sa=X&ei=KdFYVb_eK8ijU7C8gdAG&ved=0CAkQ8wc4lQE&usg=AFQjCNHVDdU4hS5Rr0TGHRVCn3Nu2oJm-Q");
+  background-color:#2091FF;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 10;
+  padding: 10px; 
+  background-color: lightskyblue;
+  color: blue;
+  border-bottom: 1px solid lightskyblue
+    
+}
+
+h2 {
+  text-align: center;
+  margin: 10;
+  padding: 10px; 
+  background-color: lightskyblue;
+  color: blue;
+  border-bottom: 1px solid #263237;  
+}
+
+form {
+  margin: 0;
+  padding: 5px;
+  background-color: #eee;
+  border-bottom: 1px solid #999;  
+}
+
+input {  
+  width: 70%;
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #2e75b3;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 15px;
+}
+
+#messages li {
+  margin: 10px 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header {  
+  font-size: 12px;
+  color: #666;
+  padding: 5px;
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.me .header {
+  background-color: black;
+}
+
+.who {
+  float: left;
+  font-weight: bold;  
+}
+
+.when {
+  float: right;
+  font-style: italic;
+  color: #999;
+}
+
+.msg {
+  padding: 5px;
+}
+
+.notice {
+  padding: 5px;
+  color: #999;
+  font-style: italic;
+}

@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Welcome to Mini Twitter
+    meta(name='viewport', content='initial-scale=1.0, width=device-width, \
+      height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(rel='stylesheet', href='//cdn.jsdelivr.net/normalize/3.0.1/normalize.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')    
+  body
+    h1 MiniTwitter
+    h2 Enjoy
+    form
+      input(id='msg', autocomplete='off', autofocus)
+      button(type='submit') Twitt
+    ul#messages
+
+     script(src='//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/client.js')
