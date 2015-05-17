@@ -35,7 +35,7 @@ h2 {
 form {
   margin: 0;
   padding: 5px;
-  background-color: #eee;
+  background-color: lightskyblue;
   border-bottom: 1px solid #999;  
 }
 
@@ -90,7 +90,7 @@ button {
 .when {
   float: right;
   font-style: italic;
-  color: #999;
+  color: green;
 }
 
 .msg {
@@ -99,6 +99,6 @@ button {
 
 .notice {
   padding: 5px;
-  color: #999;
+  color: green;
   font-style: italic;
 }
